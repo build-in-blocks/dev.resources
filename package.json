@@ -2,9 +2,15 @@
   "name": "@build-in-blocks/dev.resources",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "./build/index.js",
+  "module": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "import": "./build/index.js"
+    }
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -58,7 +64,7 @@
     "node"
   ],
   "files": [
-    "build",
+    "build/",
     "README.md"
   ]
 }
