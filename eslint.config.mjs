@@ -11,7 +11,7 @@ export default defineConfig([
   //------------------------------------------------------------------
   // USE OUR PRECONFIGURED SETTINGS & UPDATE IT WITH YOUR TARGET FILES
   //------------------------------------------------------------------
-  blocksDevSetupConfig.map(config => ({
+  blocksDevSetupConfig.map((config) => ({
     ...config,
     files: [TARGET_FILES],
   })),
