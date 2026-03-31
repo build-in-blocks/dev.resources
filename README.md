@@ -1,1 +1,1 @@
-# @build-in-blocks/spa.router
+# @build-in-blocks/dev.resources
