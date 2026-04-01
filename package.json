@@ -1,7 +1,7 @@
 {
   "name": "@build-in-blocks/dev.resources",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shared @build-in-blocks framework Typescript code development library.",
   "main": "./build/index.js",
   "module": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -58,10 +58,17 @@
     "framework",
     "library",
     "package",
-    "",
     "typescript",
     "javascript",
-    "node"
+    "node",
+    "web",
+    "shared",
+    "core",
+    "local development",
+    "local",
+    "development",
+    "dev",
+    "resources"
   ],
   "files": [
     "build/",

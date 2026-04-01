@@ -1,5 +1,11 @@
 # @build-in-blocks/dev.resources
 
+[![All Contributors](https://img.shields.io/github/all-contributors/build-in-blocks/dev.resources?color=ee8449&style=flat-square)](#contributors)
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/build-in-blocks/dev.resources/blob/develop/docs.contributors/README.md) [![License: AGPL v3.0](https://img.shields.io/badge/license-AGPL%20v3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0) ![build passing](https://img.shields.io/badge/build-passing-brightgreen?style=flat)
+
+#
+
 **Built with:** Node.js v24.0.2
 
 #
@@ -59,7 +65,7 @@ console.log(_default);
 
 ### Contributors
 
-[![All Contributors](https://img.shields.io/github/all-contributors/build-in-blocks/dev.resources?color=ee8449&style=flat-square)](#contributors) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/build-in-blocks/dev.resources/blob/develop/docs.contributors/README.md) [![License: AGPL v3.0](https://img.shields.io/badge/License-AGPL%20v3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+Thanks to these amazing contributors to the **@build-in-blocks/dev.resources** project. This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. See [emoji key](https://allcontributors.org/docs/en/emoji-key). Contributions of any kind welcome!
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
