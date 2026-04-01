@@ -1,5 +1,59 @@
 # @build-in-blocks/dev.resources
 
+**Built with:** Node.js v24.0.2
+
+#
+
+**Supported Node.js versions:** Node.js v20.x, v22.x, v24.x and v25.x - Monitored by central Blocks CI from [@build-in-blocks/dev.setup](https://www.npmjs.com/package/@build-in-blocks/dev.setup)
+
+#
+
+**Overview:** Shared `@build-in-blocks` framework Typescript code development library.
+
+#
+
+**Description:** Code used by more than one libraries from the `@build-in-blocks` framework so far, are gathered and developed in this library.
+
+#
+
+**Dependency:** `@build-in-blocks` framework libraries that have `dev.` in their name are only useful for local development, and should only be installed as a `devDependency` in your project.
+
+#
+
+**User guide:** See [docs.users README.md](https://github.com/build-in-blocks/dev.resources/blob/develop/docs.users/README.md)
+
+#
+
+**Contributor guide:** See [docs.contributors README.md](https://github.com/build-in-blocks/dev.resources/blob/develop/docs.contributors/README.md)
+
+#
+
+**Run into any issues?** Report them via our [product issue reports repo](https://github.com/build-in-blocks/product-issue-reports/issues)
+
+#
+
+### Quick installation & usage guide
+
+#### 1. Main package installation
+
+Install the package as a `devDependency` in your project:
+
+````
+npm install -D @build-in-blocks/dev.resources
+````
+
+#### 2. Import needed resources
+
+Import and use what you need from the library in your `.ts` or `.js` file, for example:
+
+````
+import { _default } from '@build-in-blocks/dev.resources';
+
+console.log(_default);
+````
+
+> [!NOTE]  
+> Visit the user guide 👆🏽 to see the full list of variables and functions available.
 
 #
 
