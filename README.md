@@ -73,6 +73,7 @@ Thanks to these amazing contributors to the **@build-in-blocks/dev.resources** p
 <table>
   <tbody>
     <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://allcontributors.org"><img src="https://avatars.githubusercontent.com/u/46410174?v=4?s=100" width="100px;" alt="All Contributors"/><br /><sub><b>All Contributors</b></sub></a><br /><a href="#tool-all-contributors" title="Tools">🔧</a> <a href="https://github.com/build-in-blocks/dev.resources/commits?author=all-contributors" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Ifycode"><img src="https://avatars.githubusercontent.com/u/45185388?v=4?s=100" width="100px;" alt="Mary @Ifycode"/><br /><sub><b>Mary @Ifycode</b></sub></a><br /><a href="https://github.com/build-in-blocks/dev.resources/commits?author=Ifycode" title="Code">💻</a> <a href="https://github.com/build-in-blocks/dev.resources/commits?author=Ifycode" title="Documentation">📖</a></td>
     </tr>
   </tbody>
