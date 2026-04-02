@@ -1,6 +1,6 @@
 export interface BlocksConfig {
   devBuild?: {
-    srcFolderRoot?: string;
+    srcCodeFolder?: string;
     entryFileName?: string;
   };
 }
