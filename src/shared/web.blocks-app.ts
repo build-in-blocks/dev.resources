@@ -1,5 +1,5 @@
 export const _default = {
-  srcFolderRoot: 'src',
+  srcCodeFolder: 'src',
   entryFileName: 'index',
   //-
   fileExtension: '.ts',

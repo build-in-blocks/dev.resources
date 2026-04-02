@@ -22,7 +22,7 @@ User installation and setup instructions can in the [root README.md](https://git
     ````
     export interface BlocksConfig {
         devBuild?: {
-            srcFolderRoot?: string;
+            srcCodeFolder?: string;
             entryFileName?: string;
         };
     }
@@ -33,7 +33,7 @@ User installation and setup instructions can in the [root README.md](https://git
     |Property | Type| Required| Description|
     |:-- |:-- |:-- |:-- |
     |`devBuild` |`object` |No |A nested object containing settings specific to the development build process. |
-    |`devBuild.srcFolderRoot` |`string` |No |The path to the source directory. Overrides the default `'src'`. |
+    |`devBuild.srcCodeFolder` |`string` |No |The path to the source directory. Overrides the default `'src'`. |
     |`devBuild.entryFileName` |`string` |No | The name of the main entry file (without extension). Overrides the default `'index'`.|
 
     **Usage Example**
@@ -47,7 +47,7 @@ User installation and setup instructions can in the [root README.md](https://git
 
     const myConfig: BlocksConfig = {
         devBuild: {
-            srcFolderRoot: 'app',
+            srcCodeFolder: 'app',
             entryFileName: 'main'
         }
     };
@@ -67,7 +67,7 @@ User installation and setup instructions can in the [root README.md](https://git
 
     |Property | Type| Default| Description|
     |:-- |:-- |:-- |:-- |
-    |`srcFolderRoot` |`string` |`'src'` |The name of the directory where source files are located. |
+    |`srcCodeFolder` |`string` |`'src'` |The name of the directory where source files are located. |
     |`entryFileName` |`string` |`'index'` |The base name of the main entry point file. |
     |`fileExtension` |`string` |`'.ts'` |The default file extension for the project (includes the leading dot). |
 
@@ -85,7 +85,7 @@ User installation and setup instructions can in the [root README.md](https://git
     * Result: "src/index.ts"
     */
 
-    const defaultEntryPoint = `${_default.srcFolderRoot}/${_default.entryFileName}${_default.fileExtension}`;
+    const defaultEntryPoint = `${_default.srcCodeFolder}/${_default.entryFileName}${_default.fileExtension}`;
 
     console.log(`Looking for entry file at: ${defaultEntryPoint}`);
     ````
@@ -97,7 +97,7 @@ User installation and setup instructions can in the [root README.md](https://git
     ````
     import { _default } from '@build-in-blocks/dev.resources';
 
-    const root = myConfig.devBuild?.srcFolderRoot || _default.srcFolderRoot;
+    const root = myConfig.devBuild?.srcCodeFolder || _default.srcCodeFolder;
     console.log(`Starting build from: ${root}`);
     ````
 
