@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
     "target": "es2016",
-    "module": "commonjs",
-    "moduleResolution": "node",                     
-    "declaration": true,                              
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "declaration": true,
     "outDir": "./build",
+    "rootDir": "./src",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitAny": true,
+    "types": ["node"],
 },
   "include": ["src/**/*", "**/*.ts"],
   "exclude": ["node_modules", "build"]
