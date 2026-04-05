@@ -22,10 +22,6 @@
 
 #
 
-**Dependency:** `@build-in-blocks` framework libraries that have `dev.` in their name are only useful for local development, and should only be installed as a `devDependency` in your project.
-
-#
-
 **User guide:** See [docs.users README.md](https://github.com/build-in-blocks/dev.resources/blob/develop/docs.users/README.md)
 
 #
