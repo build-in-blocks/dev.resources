@@ -1,6 +1,6 @@
 {
   "name": "@build-in-blocks/dev.resources",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared @build-in-blocks framework Typescript code development library.",
   "main": "./build/index.js",
   "module": "./build/index.js",
