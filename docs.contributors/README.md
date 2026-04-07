@@ -79,7 +79,7 @@ Follow the instructions to fork and clone this repository locally unto your comp
         npm link ../dev.resources
         ```
 
-    - **Step 3:** Follow the usage instructions in the [root README.md](https://github.com/build-in-blocks/dev.resources), not from the beginning though; start from the **2. Import needed resources** section (and continue till the end).
+    - **Step 3:** Follow the usage instructions in the [root README.md](https://github.com/build-in-blocks/dev.resources), not from the beginning though; start from the **2. When to install typescript** section (and continue till the end).
 
 #
 
