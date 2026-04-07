@@ -20,7 +20,7 @@ export const blocksTerminalLogger = ({ internalPackage, userApp, errorSource, su
     const isSuggestionRequested = suggestion?.messageList?.length;
     //-
     const internalPackageNameText = `${internalPackage?.fullName} (internal)`;
-    const suggestionSectionTitle = `Suggestion${suggestion?.blocksConfig?.showCurrentState ? ' (based on current state)' : ''}:`;
+    const suggestionSectionTitle = `Suggestion${suggestion?.blocksConfig?.showCurrentState ? ' (based on current blocks config state)' : ''}:`;
     //-
     if (isInternalPackageErrorRequested) {
       console.error('--------------------------');
