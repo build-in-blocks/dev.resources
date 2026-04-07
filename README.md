@@ -1,6 +1,6 @@
 # @build-in-blocks/dev.resources
 
-![Latest Version](https://img.shields.io/npm/v/@build-in-blocks/dev.resources.svg?label=latest&color=brightgreen&style=flat-square) [![Npm package total downloads](https://flat.badgen.net/npm/dt/@build-in-blocks/dev.resources?color=blue)](https://npmjs.com/package/@build-in-blocks/dev.resources) ![build passing](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
+![Latest Version](https://img.shields.io/npm/v/@build-in-blocks/dev.resources.svg?label=latest&color=brightgreen&style=flat-square) ![NPM Downloads](https://img.shields.io/npm/d18m/%40build-in-blocks%2Fdev.resources?label=downloads%20(last%2018%20months)) ![build passing](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
 
 [![License: AGPL v3.0](https://img.shields.io/badge/license-AGPL%20v3.0-blue.svg?style=flat-square)](https://www.gnu.org/licenses/agpl-3.0) [![All Contributors](https://img.shields.io/github/all-contributors/build-in-blocks/dev.resources?color=ee8449&style=flat-square)](#contributors) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/build-in-blocks/dev.resources/blob/develop/docs.contributors/README.md)
 
@@ -44,7 +44,13 @@ Install the package as a `devDependency` in your project:
 npm install -D @build-in-blocks/dev.resources
 ````
 
-#### 2. Import needed resources
+#### 2. When to install `typescript`
+
+If you are using both this library and [@build-in-blocks/dev.build](https://www.npmjs.com/package/@build-in-blocks/dev.build) together in your project, then you don't need to install `typescript` in your project (the **@build-in-blocks/dev.build** library already does that internally, relative to your project). 
+
+Otherwise, you'll need to manually install `typescript` in your project. See `typescript` table in the general guide for more information: [Typescript compatibility and usage](https://github.com/build-in-blocks/.github/wiki/Repo-User-Guide-Extension#table-typescript-compatibility-and-usage).
+
+#### 3. Import needed resources
 
 Import and use what you need from the library in your `.ts` or `.js` file, for example:
 
