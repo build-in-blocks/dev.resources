@@ -38,7 +38,7 @@
 
 #### 1. Main package installation
 
-Install the package as a `devDependency` in your project:
+Install our dev resources package as a `devDependency` in your project:
 
 ````
 npm install -D @build-in-blocks/dev.resources
@@ -52,7 +52,7 @@ Otherwise, you'll need to manually install `typescript` in your project. See `ty
 
 #### 3. Import needed resources
 
-Import and use what you need from the library in your `.ts` or `.js` file, for example:
+Import and use what you need from the library in your `.ts` (or `.js`) file, for example:
 
 ````
 import { _default } from '@build-in-blocks/dev.resources';
