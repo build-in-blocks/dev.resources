@@ -1,20 +1,8 @@
 import { BlocksTerminalLogger } from './types/node.blocks-logger.types';
 
-export const blocksTerminalLogger = ({
-  startLoggerMessageOnNewLine,
-  internalPackage,
-  userApp,
-  errorSource,
-  suggestion,
-  originalErrorMessage,
-  processExit,
-}: BlocksTerminalLogger) => {
+export const blocksTerminalLogger = ({ startLoggerMessageOnNewLine, internalPackage, userApp, errorSource, suggestion, originalErrorMessage, processExit }: BlocksTerminalLogger) => {
   //-
-  const messageListDisplay = ({
-    noNewLineAtEnd,
-  }: {
-    noNewLineAtEnd?: boolean;
-  }) => {
+  const messageListDisplay = ({ noNewLineAtEnd }: { noNewLineAtEnd?: boolean }) => {
     //-
     const messageList = suggestion?.messageList;
     if (!messageList) return;
@@ -27,8 +15,7 @@ export const blocksTerminalLogger = ({
   };
   //-
   try {
-    const isInternalPackageErrorRequested =
-      internalPackage?.fullName && internalPackage.errorMessage;
+    const isInternalPackageErrorRequested = internalPackage?.fullName && internalPackage.errorMessage;
     const isUserAppErrorRequested = userApp?.fullName && userApp.errorMessage;
     const isSuggestionRequested = suggestion?.messageList?.length;
     //-
