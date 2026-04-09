@@ -1,6 +1,6 @@
 # @build-in-blocks/dev.resources
 
-![Latest Version](https://img.shields.io/npm/v/@build-in-blocks/dev.resources.svg?label=latest&color=brightgreen&style=flat-square) ![NPM Downloads](https://img.shields.io/npm/d18m/%40build-in-blocks%2Fdev.resources?label=downloads%20(last%2018%20months)) ![build passing](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
+![Latest Version](https://img.shields.io/npm/v/@build-in-blocks/dev.resources.svg?label=latest&color=brightgreen&style=flat-square) ![NPM Downloads](https://img.shields.io/npm/d18m/%40build-in-blocks%2Fdev.resources?color=blue&label=downloads%20(last%2018%20months)) ![build passing](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
 
 [![License: AGPL v3.0](https://img.shields.io/badge/license-AGPL%20v3.0-blue.svg?style=flat-square)](https://www.gnu.org/licenses/agpl-3.0) [![All Contributors](https://img.shields.io/github/all-contributors/build-in-blocks/dev.resources?color=ee8449&style=flat-square)](#contributors) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/build-in-blocks/dev.resources/blob/develop/docs.contributors/README.md)
 
