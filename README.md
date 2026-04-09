@@ -41,7 +41,7 @@
 Install our dev resources package as a `devDependency` in your project:
 
 ````
-npm install -D @build-in-blocks/dev.resources
+npm install -D @build-in-blocks/dev.resources --save-exact
 ````
 
 #### 2. When to install `typescript`
