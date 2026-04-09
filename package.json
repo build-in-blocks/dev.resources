@@ -1,6 +1,6 @@
 {
   "name": "@build-in-blocks/dev.resources",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shared @build-in-blocks framework Typescript code development library.",
   "main": "./build/index.js",
   "module": "./build/index.js",
@@ -23,7 +23,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@build-in-blocks/dev.setup": "^1.0.2",
+    "@build-in-blocks/dev.setup": "1.0.2",
     "@eslint/js": "^10.0.1",
     "@types/node": "^25.5.0",
     "del-cli": "^7.0.0",
