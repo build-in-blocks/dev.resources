@@ -33,6 +33,7 @@ More info on **@build-in-blocks** framework libraries in general can be found at
 
     ````
     export interface BlocksTerminalLogger {
+        startLoggerMessageOnNewLine?: boolean;
         internalPackage?: {
             fullName?: string;
             errorMessage?: string;
@@ -58,6 +59,7 @@ More info on **@build-in-blocks** framework libraries in general can be found at
 
     |Property | Type| Required| Description|
     |:-- |:-- |:-- |:-- |
+    |`startLoggerMessageOnNewLine` |`boolean` |No |If `true`, the `blocksTerminalLogger` message will start on a new line in the terminal.|
     |`internalPackage` |`object` |No |Has optional properties `fullName` and `errorMessage`, useful for logging a custom internal framework error.|
     |`userApp` |`object` |No |Has optional properties `fullName` and `errorMessage`, useful for logging a custom message for a blocks web app.|
     |`errorSource` |`boolean` |No |If `true`, explicitly prints the source of the error pointing to the internal package.|

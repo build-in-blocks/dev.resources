@@ -1,4 +1,5 @@
 export interface BlocksTerminalLogger {
+  startLoggerMessageOnNewLine?: boolean;
   internalPackage?: {
     fullName?: string;
     errorMessage?: string;
